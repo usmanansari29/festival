@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	}
+
+/*header start*/
+.icon-bar{
+	padding: 10px;
+	}
+.fa-facebook{
+	color: #2766E4;
+	padding: 10px 20px;
+	}
+.fa-twitter{
+	padding: 10px 20px;
+	color: #2766E4;
+	}
+.fa-instagram{
+	padding: 10px 20px;
+	color: deeppink;
+	}	
+.fa-pinterest{
+	padding: 10px 20px;
+	color: darkred;
+	}
+/*dropdown-header end*/
+
+
+/*NAVBAR*/
+.navbar{
+	background-color: black;
+	}
+
+.nav-link{
+	color: white;
+	}
+.nav-link:hover{
+	color: deeppink;
+	}
+.dropdown-menu a {
+	color: white;
+	background-color: black
+	}
+.dropdown-menu a:hover{
+	color: deeppink;
+	background-color: black;
+	}
+
+
+/*banner start*/
+.banner{
+	background-image: url("../images/homepage/banner-homepage.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	opacity: 0.9;
+	height: 500px; 
+	}
+
+.h1-banner{
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bolder;
+	font-size: 33px;
+	margin-top: 230px;
+	text-align: center;
+	}
+
+.ramadan-banner{
+	background-image:url("../images/muslim/masjid-banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	opacity: 0.9;
+	}
+
+.h1-ramadan-banner{
+	margin-top: 250px;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+	}
+
+.eid-banner{
+	background-image: url("../images/muslim/masjid-banner2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	opacity:1;
+	}
+
+.h1-eid-banner{
+	margin-top: 250px;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;	
+	}
+
+.banner-mexico-festival{
+	background-image: url("../images/dia de los muretos/mexico-festival-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 450px;
+	}
+
+.banner-tshechu-festival{
+	background-image: url("../images/TSECHUS/tshechu-festival-banner.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+	}
+
+.banner-semana-santa-festival{
+	background-image: url("../images/semana-santa/semana-santa-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 450px;	
+	}
+
+.phaung-daw-oo-pagoda-festival-banner{
+	background-image: url("../images/phaung daw oo pagoda/phaung-daw-oo-pagoda-festival-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 450px;
+	}
+
+.banner-contact{
+	background-image: url("../images/contact/contact-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 300px;		
+	}
+
+.h1-banner-contact{
+	color: white;
+	margin-top: 100px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;	
+	}
+
+.banner-diwali-festival{
+	background-image:url("../images/diwali/diwali-banner3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 500px;
+	}
+
+.banner-christmas-festival{
+	background-image: url("../images/christmas/christmas-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	}
+.banner-holi{
+	background-image: url("../images/holi/banner-holi1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	opacity: 0.9;	
+	}
+
+.h1-banner-holi{
+	margin-top: 250px;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	}
+
+.banner-oban{
+	background-image: url("../images/OBON FESTIVAL/banner-oban.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	opacity: 0.9;
+	}
+
+.banner-about-us{
+	background-image: url("../images/about-us/about-us-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	}
+
+.h1-banner-about-us{
+	color: white;
+	margin-top: 100px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;	
+	}
+
+.banner-gallery{
+	background-image: url("../images/gallery/gallery-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	}
+
+.h1-banner-gallery{
+	color: white;
+	margin-top: 100px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;	
+	}
+/*banner end*/
+
+.h-1{
+	text-align: center;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	font-weight: bold;
+	font-size-adjust:auto;
+	}
+
+.h-2{
+	font-size: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	}
+
+.para{
+	font-size: 16px;
+	font-family: 'Open Sans',sans-serif;
+	color: black;
+	text-align: center;
+	text-align: justify;
+	}
+
+.para-btn{
+	padding: 4px 50px;
+	color: white;
+	background-color: black;
+	border-radius: 9px;
+	}
+
+.para-btn:hover{
+	color: deeppink;
+	}
+
+.pagination li a{
+	padding: 1px 30px;
+	color: black;
+	border: thick;
+	border-color: grey;
+	border-radius:15px; 
+	border-style:solid;
+	}
+
+.pagination li a:hover{
+	background-color: black;
+	color: deeppink;
+	text-decoration: none;
+	}
+
+.color{
+	background-color: black;
+	}
+
+/*contact form*/
+* {
+  box-sizing: border-box;
+	}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+	}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+	}
+
+/* Create two columns that float next to eachother */
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+	}
+
+
+/*news letter*/
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+	}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+	}
+
+input[type=checkbox] {
+  margin-top: 16px;
+	}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+	}
+
+input[type=submit]:hover {
+ 	 color:deeppink;
+	background-color: black;	
+	}
+
+
+	/*footer*/
+.footer-main-contant {
+    background-color: #000;
+    padding: 120px 0px;
+	}
+
+.footer-main-contant p {
+    font-size: 19px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 500;
+	color: #fff;
+	}
+
+ul.footer-list {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+	}
+.footer-icon {
+    margin-top: 50px;
+	text-align: center
+	}
+.footer-list a:hover{
+	text-decoration: none;
+	color: deeppink;
+	}
+.footer-list a {
+    margin-left: 30px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: auto;
+    font-style: italic;
+	color: #fff;
+	}
+
+.footer-main-contant h6 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+	}
+/*footer end*/
+
+
+/*contact form media qurrey*/
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.img-1{
+	margin-bottom:10px;
+	}
+.img-2{
+	margin-bottom:10px;
+	}	
+.img-3{
+	margin-bottom:10px;
+	}	 
